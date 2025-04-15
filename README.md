@@ -9,7 +9,7 @@ This project deploys [Prometheus](https://prometheus.io/) and [Grafana](https://
 - Deploys Prometheus using the official Docker image (`prom/prometheus:latest`)
 - Exposes Prometheus via HTTPS using Azure Container App ingress
 - Deploys Grafana using the official Docker image (`grafana/grafana:latest`)
-- Exposes Prometheus via HTTPS using Azure Container App ingress
+- Exposes Grafana via HTTPS using Azure Container App ingress
 - Uses Azure Log Analytics workspace for container monitoring
 - Easily extensible for configs, persistent storage, or custom domains
 
